@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="username-id"> Username:</label>
+        <input type="text" id="username-id" placeholder="@email.com" required = "true"><br>
+        <label for="PASSWORD">Password:</label>
+        <input type="password" id="PASSWORD"><br>
+        <input type="date"><br><hr>
+        <input type="file"><br><hr>
+        <input type="range"><br>
+        <!--    choose one option -->
+        <label for="MALE">Male</label>
+        <input type="radio" id="MALE" name="gender" value="male"><br>
+        <label for="FEMALE">Female</label>
+        <input type="radio" id="FEMALE" name="gender" value="female"><br>
+        <label for="OTHER">Other</label>
+        <input type="radio" id="OTHER" name="gender" value="other"><br><hr>
+
+        <!--    check box   -->
+        <label for="C">c</label>
+        <input type="checkbox" id="C" name="LANGUAGE" value="C"><br>
+        <label for="JAVA">java</label>
+        <input type="checkbox" id="JAVA" name="LANGUAGE" value="java"><br>
+        <label for="PYTHON">python</label>
+        <input type="checkbox" id="PYTHON" name="LANGUAGE" value="python"><br>
+        <label for="HTML">html</label>
+        <input type="checkbox" id="HTML" name="LANGUAGE" value="html"><br>
+        <label for="CSS">css</label>
+        <input type="checkbox" id="CSS" name="LANGUAGE" value="css"><br>
+        <hr>
+        <!--    select and option -->
+        <label for="country">COUNTRY :</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="uk">Uk</option>
+            <option value="us">Us</option>
+        </select><br>
+
+        <!--     text area   -->
+        <textarea name="story" id="story" cols="30" rows="6">
+        please write some story
+        </textarea><br>
+        <input type="submit">
+    </form>
+    <iframe src="https://en.wikipedia.org/wiki/Main_Page" frameborder="0"></iframe>
+    <iframe src="https://www.google.com/" frameborder="0"></iframe>
+</body>
+</html>
